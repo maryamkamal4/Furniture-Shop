@@ -355,10 +355,6 @@
   margin: auto;
 }
 
-.datwoman {
-  object-fit: cover;
-  display: none;
-}
 .bg-img {
   width: 100%;
 }
@@ -418,6 +414,29 @@
 
 .question-div {
   gap:0.7rem;
+}
+
+.roger-img {
+  height: 70px;
+}
+
+.section6-carousal {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.section-6-bg {
+  background-color: #dde6ed;
+}
+
+.carousel-indicators {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 0%;
+}
+
+.carousel-indicators .active {
+  background-color: #e67217;
 }
 
 @media (min-width: 768px) {
@@ -508,5 +527,15 @@
 
   .section-10-p {
     display: block;
+  }
+}
+
+@media (max-width:1099px) and (min-width:769px) {
+  .card-text, .card-title, .card-head {
+    font-size: small;
+  }
+  .card-body {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
