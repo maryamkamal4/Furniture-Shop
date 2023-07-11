@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+}
+
 .section-10-p {
   display: none;
 }
@@ -161,7 +166,6 @@
 
 .section-5 {
   background-color: #c0dbea;
-  /* max-width: 100%; */
 }
 
 .rounded-icon {
@@ -277,7 +281,7 @@
 }
 
 .card-container {
-  height: 280px; /* Set a fixed height for the card container */
+  height: 280px;
 }
 
 .card-img-col {
@@ -296,7 +300,6 @@
 
 .footer {
   background-color: #c0dbea;
-  /* max-width: 100%; */
 }
 
 .footer2 {
@@ -327,6 +330,7 @@
   border-radius: 50% 50%;
   top: -3.4rem;
   left: 3rem;
+  font-family: inherit;
 }
 
 .section6-div2 {
@@ -337,14 +341,16 @@
   border-radius: 50% 50%;
   top: -3.4rem;
   left: 3rem;
+  font-family: inherit;
 }
 
 .section6-p {
   position: relative;
-  top: -1.4rem;
-  left: 0.5rem;
+  top: -0.6rem;
+  left: 0.8rem;
   font-weight: 5rem;
   font-size: 5rem;
+  font-family: inherit;
 }
 
 .section-8 {
@@ -377,11 +383,13 @@
 }
 
 .roger-1 {
-  padding: 2rem; background-color: beige;
+  padding: 2rem;
+  background-color: beige;
 }
 
 .roger-2 {
-  padding: 2rem; background-color: #f3aa60
+  padding: 2rem;
+  background-color: #f3aa60;
 }
 
 .roger-color1 {
@@ -409,11 +417,11 @@
 }
 
 .recent-div {
-  gap:0.4rem;
+  gap: 0.4rem;
 }
 
 .question-div {
-  gap:0.7rem;
+  gap: 0.7rem;
 }
 
 .roger-img {
@@ -530,8 +538,10 @@
   }
 }
 
-@media (max-width:1099px) and (min-width:769px) {
-  .card-text, .card-title, .card-head {
+@media (max-width: 1099px) and (min-width: 769px) {
+  .card-text,
+  .card-title,
+  .card-head {
     font-size: small;
   }
   .card-body {
